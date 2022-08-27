@@ -9,26 +9,38 @@ html, body {
     box-sizing: border-box;
 }
 
-.container {
+/*.container {
     padding: 5px;
     color: #FFFFFF;
     font-weight: bold;
     overflow: auto;
-}
+}*/
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-weight: bold;
+    padding: 1em;
+  }
 
 .logo-brand {
     width: 40%;
     margin-left: 60px;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;
     overflow: hidden;
-    position: relative;
-    clear: none;
+    position: relative;*/
 }
 
 .logo {
     width: 60px;
-    margin-top: 17px;
-    float: left;
+    /*margin-top: 10px;
+    float: left;*/
 }
 
 .logo-brand img {
@@ -40,18 +52,128 @@ html, body {
     width: 190px;
     margin-left: 10px;
     font-size: 2.342606149341142vw;
-    float: left;
+    /*float: left;*/
 }
 
 .list-a {
+    background-color: red;
     width: 20%;
-    /*margin: 22px 0px 0px 380px;*/
-    /*text-align: right;*/
+    /*margin: 22px 0px 0px 380px;
+    text-align: right;
     margin-top: 17px;
     float: right;
     position: relative;
-    clear: none;
+    clear: none;*/
 }
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 700px) {
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ .menu li {
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: white;
+      background-color: #222;
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid #444;
+    }
+  }
 
 @media screen and (max-width: 800px) {
     .logo-brand .logo, .brand_name .list-a {
@@ -59,11 +181,11 @@ html, body {
     }
   }
 
-.list-a li {
+/*.list-a li {
     padding: 8px;
     display: inline-block;
     
-}
+}*/
 
 .container_a {
     margin-top: 120px;
@@ -109,12 +231,31 @@ html, body {
     background-color: #1762A7;
     width: 224px;
     height: 86px;
+    margin: 0;
     margin-top: 25px;
     color: white;
     font-size: 1.7569546120058566vw;
     border: none;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 280px) { 
+    .stream button {
+      width: 100%;
+    }
+
+.bt{
+    background: #333;
+    color: #fdfdfd;
+    min-height: 35px;
+    margin: 0;
+    border-radius: 3px;
+    border: 0;
+    line-height: 35px;
+    text-align: center;
+    margin: .5em 0 .5em 0;
+  
+  }
 
 @media only screen and (max-width: 620px) {
     .stream .landing_image{
