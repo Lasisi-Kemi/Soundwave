@@ -5,6 +5,11 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .top-nav {
   /*background-color: aqua;*/
   margin-top: 20px;
@@ -16,7 +21,7 @@ body {
 .logo-brand {
   /*background-color: aquamarine;*/
   width: 270px;
-  margin-left: 46px;
+  margin-left: 66px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,6 +34,7 @@ body {
 
 .logo-brand p {
   margin-right: 30px;
+  margin-top: 8px;
 }
 
 .logo-brand a {
@@ -41,10 +47,11 @@ body {
 .list_a {
   /*background-color: blanchedalmond;*/
   width: 196px;
-  margin-right: 46px;
+  margin-right: 66px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .list_a a {
@@ -58,11 +65,11 @@ body {
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-  line-height: 0.1;
+  line-height: 1.5;
 }
 
 .landing_image {
-  margin-left: 46px;
+  margin-left: 66px;
 }
 
 .landing_image img {
@@ -92,7 +99,7 @@ body {
   background-color: #2F303A;
   width: 224px;
   height: 86px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: white;
   font-size: 24px;
   border: 2px solid #1762A7;
@@ -103,3 +110,65 @@ body {
   background-color: #1762A7;
   transition: 1.5s;
 }
+
+/*Discover page*/
+.topnav {
+  margin-top: 20px;
+}
+
+.album {
+  /*background-color: red;*/
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.album-sec {
+  /*background-color: #1762A7;*/
+  height: 409px;
+  margin-left: 66px;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cover {
+  /*background-color: aqua;*/
+  margin-right: 46px;
+  flex-basis: 40%;
+}
+
+.album-logo {
+  /*background-color: bisque;*/
+  display: flex;
+}
+
+.box {
+  background-color: #202027;
+  width: 134px;
+  height: 146px;
+  margin: 10px;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-heading {
+  font-size: 62px;
+}
+
+.cover img {
+  width: 409px;
+  height: 409px
+}
+
+.textsec {
+  margin-left: 10px;
+  font-size: 26px;
+}
+
