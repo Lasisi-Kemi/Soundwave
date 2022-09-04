@@ -21,7 +21,7 @@ body {
 .logo-brand {
   /*background-color: aquamarine;*/
   width: 270px;
-  margin-left: 66px;
+  margin-left: 76px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -47,11 +47,14 @@ body {
 .list_a {
   /*background-color: blanchedalmond;*/
   width: 196px;
-  margin-right: 66px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  margin-right: 76px;
+  margin-top: 15px;
+ 
+}
+
+.list_a li {
+  padding: 17px;
+  display: inline; 
 }
 
 .list_a a {
@@ -69,7 +72,7 @@ body {
 }
 
 .landing_image {
-  margin-left: 66px;
+  margin-left: 76px;
 }
 
 .landing_image img {
@@ -95,7 +98,7 @@ body {
 }
 
 
-.stream button {
+.stream input {
   background-color: #2F303A;
   width: 224px;
   height: 86px;
@@ -106,7 +109,7 @@ body {
   border-radius: 10px;
 }
 
-.stream button:hover {
+.stream input:hover {
   background-color: #1762A7;
   transition: 1.5s;
 }
@@ -128,7 +131,7 @@ body {
 .album-sec {
   /*background-color: #1762A7;*/
   height: 409px;
-  margin-left: 66px;
+  margin-left: 76px;
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
@@ -171,4 +174,105 @@ body {
   margin-left: 10px;
   font-size: 26px;
 }
+
+/*login page*/
+.login_page {
+  /*background-color: #1762A7;*/
+  margin-top: 100px;
+  padding: 5px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.join-text {
+  margin-left: 68px;
+  font-size: 72px;
+  align-self: center;
+}
+
+.join-text span {
+  font-size: 92px;
+  color: #BC3AB0;
+}
+
+.form_a {
+  background-color: #202027;
+  width: 36%;
+  height: 417px;
+  margin-left: 80px;
+  padding: 10px;
+  line-height: 2;
+}
+
+.form_a form {
+  width: 87%;
+  margin: auto;
+  padding: 3px;
+  font-size: 24px;
+}
+
+.form_a input {
+  background-color: #202027;
+  width: 380px;
+  padding: 15px;
+  border: 1px solid #1762A7;
+  border-radius: 7px;
+}
+
+.form_a p {
+  margin-left: 5px;
+}
+
+.join_button input {
+  width: 413px;
+  margin-top: 33px;
+  border: none;
+  background-color: #1762A7;
+  color: white;
+  font-size: 18px;
+}
+
+.footer-end {
+  background-color: #202027;
+  margin-top: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-end a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-sec {
+  margin-left: 76px;
+  align-self: center;
+  font-weight: 600;
+}
+
+.about-sec li {
+  padding: 5px;
+  display: inline;
+}
+
+.social-icon {
+  margin-right: 76px;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.social-icon li {
+  padding: 5px;
+  display: inline;
+}
+
+.social-icon span {
+ padding: 3px;
+ }
+
 
