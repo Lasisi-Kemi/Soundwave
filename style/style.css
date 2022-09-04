@@ -2,7 +2,7 @@ body {
   background-color: #2F303A;
   margin: 0;
   padding: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Poppins;
 }
 
 * {
@@ -41,13 +41,14 @@ body {
   text-decoration: none;
   color: white;
   font-size: 32px;
-  font-weight: 900;
+  font-weight: 400;
+  margin-left: 15px;
 }
 
 .list_a {
   /*background-color: blanchedalmond;*/
-  width: 196px;
-  margin-right: 76px;
+  width: 200px;
+  margin-right: 70px;
   margin-top: 15px;
  
 }
@@ -60,7 +61,7 @@ body {
 .list_a a {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .container_a {
@@ -195,6 +196,7 @@ body {
 .join-text span {
   font-size: 92px;
   color: #BC3AB0;
+  font-weight: 600;
 }
 
 .form_a {
@@ -274,5 +276,3 @@ body {
 .social-icon span {
  padding: 3px;
  }
-
-
