@@ -83,7 +83,7 @@ body {
 .landing_image {
   margin-left: 66px;
   flex-basis: 40%;
-  background-image: url(./images/landing-page-girl.png);
+  background-image: url(../images/landing-page-girl.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: left;
