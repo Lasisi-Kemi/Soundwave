@@ -1,19 +1,22 @@
 body {
-  width: 100%;
-  height: 100vh;
   padding: 0;
   margin: 0;
   background-color: #2F303A;
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 * {
   padding: 0;
   margin: 0;
+}
+
+.bodyvh {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .max_width {
@@ -277,7 +280,7 @@ body {
 
 .discover-album-sec-heading {
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 42px;
   letter-spacing: 2px;
 }
 
