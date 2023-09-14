@@ -201,7 +201,7 @@ body {
   display: none;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .music {
     top: 20%;
     background-image: url(../images/landing-page-girl.png);
