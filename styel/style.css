@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: brown;
+}
+
+.max_width {
+    width: 100%;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.header-nav {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-brand a {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-nav-container ul {
+    display: flex;
+}
+
+.header-nav-container li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.header-nav-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .header-nav-container-list-bars {
+    display: flex;
+}
+
+.header-nav-container-list-bars li {
+    list-style: none;
+}
+
+.header-nav-container-list-bars a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+.mobile-nav-button {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .header-nav-container-list {
+        display: none;
+    }
+
+    .mobile-nav-button {
+        display: flex;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .mobile-nav-button i {
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .header-logo-brand a {
+        font-size: 22px;
+    }
+}
+/* mobile view for header section ends here */
+/* music section start here */
+.music {
+    background-color: bisque;
+    padding: 60px 0px;
+    text-align: center;
+    font-size: 70px;
+}
+
+@media (max-width: 768px) {
+    .music {
+        padding: 70px 0px;
+        font-size: 30px;
+}
+
+@media (min-width:600px) and (max-width: 768px) {
+    .music {
+        font-size: 60px;
+    }
+}
+}
+
+.testing {
+    background-color: azure;
+    padding: 70px 0px;
+}
+
+.testing_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testing_flex-item {
+    width: 48%;
+    height: 400px;
+    background-color: brown;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testing_flex-bg {
+    width: 48%;
+    height: 400px;
+    background-image: url(../images/landing-page-girl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
