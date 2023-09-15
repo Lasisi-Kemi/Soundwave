@@ -407,6 +407,12 @@ body {
   border-radius: 7px;
 }
 
+.join-container-form-form input[type="text"]{
+  color: white;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
 .join_button {
   width: 413px;
   margin-top: 33px;
