@@ -5,64 +5,75 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Soundwave</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="./style/fontawesome/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <div>
-            <div class="section-a">
-                <div class="inner_container">
-                    <div class="top-nav">
-                        <div class="logo-brand">
-                            <img src="./images/Logo.png" alt="logo">
-                            <p><a href="index.html">Soundwave</a></p>
+        <header class="header">
+            <div class="max_width">
+                <div class="header-nav">
+                    <a href="index.html">
+                        <div class="header-logo-brand">
+                            <div></div>
+                            <a href="index.html">Soundwave</a>
                         </div>
-                        <div class="list_a">
-                            <ul class="list_b">
-                                <li><a href="discover.html">Discover</a></li>
-                                <li><a href="login.html">Join</a></li>
+                    </a>
+                    <nav class="header-nav-container">
+                        <button class="mobile-nav-button">
+                            <span><i class="fa fa-bars"></i></span>
+                        </button>
+                        <div class="header-nav-container-list">
+                            <ul class="header-nav-container-list-bars">
+                                <li><a class="nav-link" href="discover.html">Discover</a></li>
+                                <li><a class="nav-link" href="login.html">Join</a></li>
                             </ul>
                         </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="join">
+            <div class="max_width">
+                <div class="join-containner">
+                    <div class="join-container-text">
+                        <p>Join the <span>fun.</span></p>
+                    </div>
+                    <div class="join-container-form">
+                        <form class="join-container-form-form">
+                            <label>Name</label><br>
+                            <input type="text" name="name"><br>
+                            <label>Email</label><br>         
+                            <input type="text" name="text"><br>
+                            <label>Phone</label><br>
+                            <input type="number" name="phone_no"><br>            
+                            <input class="join_button" type="button" value="Join now">
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="section_e">
-                <div class="inner_container">
-                    <div class="login_page">
-                        <div class="join-text">
-                            <p>Join the <span>fun.</span></p>
-                        </div>
-                        <div class="form_a">
-                            <form>
-                                <p>Name</p>
-                                <p><input type="text" name="name"></p>
-                                <p>Email</p>             
-                                <p><input type="text" name="text"></p>
-                                <p>Phone</p>
-                                <p><input type="number" name="phone_no"></p>             
-                                <p class="join_button"><input type="button" value="Join now"></p>
-                            </form>
-                        </div>
+        </section>
+        <footer>
+            <div class="max_width">
+                <div class="footer-end">
+                    <div class="about-sec">
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-icon">
+                        <ul>
+                            <li><img src="./images/facebook.svg" alt="facebook icon"><a href="#">facebook</a></li>
+                            <li><img src="./images/twitter.svg" alt="twitter icon>"><a href="#">Twitter</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <footer>
-                <div class="inner_container">
-                    <div class="footer-end">
-                        <div class="about-sec">
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="social-icon">
-                            <ul>
-                                <li><img src="./images/facebook.svg" alt="facebook icon"><span><a href="#">facebook</a></span></li>
-                                <li><img src="./images/twitter.svg" alt="twitter icon>"><a href="#">Twitter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                <div>
-            </footer>
-        </div>
+            <div>
+        </footer>
+        <script src="./script/script.js"></script>
     </body>
 </html>
