@@ -452,12 +452,12 @@ body {
 footer {
   width: 100%;
   background-color: #202027;
-  /*position: absolute;
-  bottom: 0; */
+  position: fixed;
+  bottom: 0; 
 }
 
 .footer-end {
-  padding: 10px 0px 20px 0px;
+  padding: 10px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -467,10 +467,6 @@ footer {
   color: white;
   text-decoration: none;
   font-weight: 600;
-}
-
-.about-sec {
-  align-self: center;
 }
 
 .about-sec a {
