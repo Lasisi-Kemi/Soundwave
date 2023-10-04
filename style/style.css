@@ -424,6 +424,9 @@ body {
 } 
 
 @media (max-width: 768px) {
+  .join {
+    margin-bottom: 60px;
+  }
   .join-containner {
     color: white;
     flex-direction: column;
