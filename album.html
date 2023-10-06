@@ -1,0 +1,160 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Album</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="./style/fontawesome/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <section>
+            <div class="max_width">
+                <div class="song-section">
+                    <div class="song-section-one">
+                        <div class="song-section-one-flexone">
+                            <div class="song-section-one-flexone-bg"></div>
+                            <div class="song-section-one-flexone-texts">
+                                <p class="song-section-one-flexone-texts-username">Lasisi30</p>
+                                <p class="song-section-one-flexone-texts-plan">Premium</p>
+                            </div>
+                        </div>
+                        <div class="song-section-one-flextwo">
+                            <input type="search" placeholder="Search">
+                            <img src="./images/search.svg">
+                        </div>
+                        <div class="song-section-one-flexthree">
+                            <a href="#">
+                                <img src="./images/love.svg">
+                            </a>
+                            <a href="#">
+                                <img src="./images/setting.svg">
+                            </a>
+                            <a href="#">
+                                <img src="./images/notification.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="song-section-two">
+                        <div class="song-section-two-one">
+                            <div class="song-section-two-one-box">
+                                <div class="song-section-two-one-box-flex">
+                                    <div class="song-section-two-one-box-image">
+                                        <img src="./images/Rectangle 20.png">
+                                    </div>
+                                    <div class="song-section-two-one-box-texts">
+                                        <p class="song-section-two-one-box-texts-title">It is well</p>
+                                        <p class="song-section-two-one-box-texts-author">By <span>Harris Jayaraj</span></p>
+                                        <audio id="player" src="./images/02 It Is Well.mp3"></audio>
+                                        <div class="audio-buttons">
+                                            <button><img src="./images/left.svg"></button>
+                                            <button id="play" class="pause" onclick = "document.getElementById('play').style.display = 'none' ; document.getElementById('player').play(); document.getElementById('pause').style.display = 'block'"><i class="fa-solid fa-play"></i></button>
+                                            <button id="pause" class="play" onclick = "document.getElementById('pause').style.display = 'none' ;document.getElementById('player').pause(); document.getElementById('play').style.display = 'block'"><i class="fa-solid fa-pause"></i></button>
+                                            <button> <img src="./images/right.svg"></button>
+                                            <!-- <button>Vol+</button>
+                                            <button>Vol-</button> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song-section-two-one-music">
+                                <div class="song-section-two-one-music-flex">
+                                    <p>Recently Played</p>
+                                    <a>Listen more</a>
+                                </div>
+                                <div class="song-section-two-one-music-box">
+                                    <div class="song-section-two-one-music-box-flex">
+                                        <img src="./images/Rectangle 22.png">
+                                        <p>I love you</p>
+                                    </div>
+                                    <p class="song-section-two-one-music-box-text">Johanathan McReynolds</p>
+                                    <p class="song-section-two-one-music-box-duration">3:27</p>
+                                </div>
+                                <div class="song-section-two-one-music-box">
+                                    <div class="song-section-two-one-music-box-flex">
+                                        <img src="./images/Rectangle 22.png">
+                                        <p>I surrender all</p>
+                                    </div>
+                                    <p class="song-section-two-one-music-box-text">Kim burrell</p>
+                                    <p class="song-section-two-one-music-box-duration">4:01</p>
+                                </div>
+                                <div class="song-section-two-one-music-box">
+                                    <div class="song-section-two-one-music-box-flex">
+                                        <img src="./images/Rectangle 24.png">
+                                        <p>I Am Miracle</p>
+                                    </div>
+                                    <p class="song-section-two-one-music-box-text">Anthony Brown</p>
+                                    <p class="song-section-two-one-music-box-duration">4:24</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="song-section-two-two">
+                            <div class="song-section-two-two-firstbox">
+                                <div class="song-section-two-two-firstbox-image">
+                                    <img src="./images/Rectangle 14.png">
+                                </div>
+                                <div class="song-section-two-two-firstbox-box">
+                                    <div class="song-section-two-two-firstbox-box-texts">
+                                        <div class="song-section-two-two-firstbox-box-absolute">
+                                            <img src="./images/star.svg">
+                                            <p>verified account</p>
+                                        </div>
+                                        <p class="song-section-two-two-firstbox-box-title">Harris Jayaraj</p>
+                                        <p class="song-section-two-two-firstbox-box-learner">9,425,858 monthly listeners</p>
+                                        <p class="song-section-two-two-firstbox-box-following">Following</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="song-section-two-two-secondbox">
+                                <div class="song-section-two-two-secondbox-maxwidth">
+                                    <p class="song-section-two-two-secondbox-title">Popular</p>
+                                    <div class="song-section-two-two-secondbox-title-flex">
+                                        <div class="song-section-two-two-secondbox-title-flex-imagebox">
+                                            <img src="./images/Rectangle 15.png">
+                                            <p>Victoria Orenze</p>
+                                        </div>
+                                        <p class="song-section-two-one-music-box-duration">5.18</p>
+                                    </div>
+                                    <div class="song-section-two-two-secondbox-title-flex">
+                                        <div class="song-section-two-two-secondbox-title-flex-imagebox">
+                                            <img src="./images/Rectangle 15.png">
+                                            <p>Preye Odede</p>
+                                        </div>
+                                        <p class="song-section-two-one-music-box-duration">5.18</p>
+                                    </div>
+                                    <div class="song-section-two-two-secondbox-title-flex">
+                                        <div class="song-section-two-two-secondbox-title-flex-imagebox">
+                                            <img src="./images/Rectangle 15.png">
+                                            <p>Geoffery Golden</p>
+                                        </div>
+                                        <p class="song-section-two-one-music-box-duration">5.18</p>
+                                    </div>
+                                    <div class="song-section-two-two-secondbox-title-flex">
+                                        <div class="song-section-two-two-secondbox-title-flex-imagebox">
+                                            <img src="./images/Rectangle 15.png">
+                                            <p>David D </p>
+                                        </div>
+                                        <p class="song-section-two-one-music-box-duration">5.18</p>
+                                    </div>
+                                    <div class="song-section-two-two-secondbox-title-flex">
+                                        <div class="song-section-two-two-secondbox-title-flex-imagebox">
+                                            <img src="./images/Rectangle 15.png">
+                                            <p>David G </p>
+                                        </div>
+                                        <p class="song-section-two-one-music-box-duration">5.18</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="./script/script.js"></script>
+        </section>
+    </body>
+</html>
